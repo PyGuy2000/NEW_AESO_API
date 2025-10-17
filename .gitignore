@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# All CSV files in root directory
+*.csv
+
+# Exclude CSV files in output subdirectory
+output/**/*.csv
+

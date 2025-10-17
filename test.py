@@ -1,0 +1,10 @@
+from src.aggregate_imports_and_exports import aggregate_import_exports
+from src.combine_ail_demand_exports_imports import combine_demand_with_tie_line_data, append_aggregated_annual_data_with_tie_line_data
+
+file_year_suffix= 2025
+
+aggregate_import_exports(file_year_suffix)
+
+combine_demand_with_tie_line_data(file_year_suffix)
+
+append_aggregated_annual_data_with_tie_line_data(file_year_suffix)
